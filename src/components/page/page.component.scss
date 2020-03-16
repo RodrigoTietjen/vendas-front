@@ -1,0 +1,43 @@
+.page-header {
+  background: linear-gradient(-135deg,#c850c0,#4158d0);
+  height: 70px;
+  box-shadow: 0 0.125rem 0.65rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .logout {
+    padding-right: 20px;
+    height: min-content;
+    align-self: flex-end;
+    color: white;
+    cursor: pointer;
+    height: 27px;
+  }
+  .title {
+    color: white;
+    padding-left: 20px;
+  }
+  .page-title {
+    border-left: 1px solid white;
+    margin-left: 20px;
+  }
+}
+
+.page-body {
+  background: linear-gradient(-135deg,);
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+  .sub-header {
+    display: flex;
+    padding-bottom: 20px;
+    button {
+      margin-right: 12px;
+    }
+  }
+}
+
+.page-footer {
+  height: 10vh;
+}

@@ -1,0 +1,1 @@
+export { default as ListaVendas } from './lista-vendas.component';

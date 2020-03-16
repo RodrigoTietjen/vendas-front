@@ -1,0 +1,36 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(-135deg,#c850c0,#4158d0);
+
+  .title {
+    color: white
+  }
+  
+  .card-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 280px;
+
+      .MuiFormGroup-root {
+        padding-bottom: 15px;
+      }
+
+      .actions {
+        padding: 20px;
+
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
